@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  width: 100vw;
+}
+.app-container {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+.firstsidebar{
+  width: 10%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  column-gap: 10px;
+}
+.secondsidebar{
+  background-color: white;
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 10px;
+}
+.button{
+  padding: 10px;
+  background-color: aqua;
+  color: rgb(205, 122, 122);
+  border: none;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: burlywood;
+  border-radius: 5px;
+}
+.heading {
+  font-weight:bold;
+  font-size: 15px;
+  display: flex;
+}
+.dropdown {
+  padding: 5px;
+  height:20px;
+  width: 15px;
+}
