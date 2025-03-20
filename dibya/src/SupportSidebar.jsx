@@ -3,7 +3,7 @@ import React from 'react'
 function SupportSidebar() {
   return (
     <div>
-      <h3>Booking menu</h3>
+      <h3>Support menu</h3>
       <label className="heading">My Messsages:</label>
       <select className="dropdown">
            <option>✔️Open</option>

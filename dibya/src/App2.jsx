@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Sidebar from './Sidebar';
 import User from './Admin/User';
 import Teams from './Admin/Teams';
@@ -16,16 +16,12 @@ function App2() {
     <BrowserRouter>
       <div className="app-container">
         <Sidebar />
-        <div className="admin content">
+        <div className="admin-content">
           <Routes>
             <Route path="/user" element={<User />} />
             <Route path="/teams" element={<Teams />} />
             <Route path="/planet" element={<Planet />} />
             <Route path="/vessel" element={<Vessel />} />
-          </Routes>
-        </div>
-        <div className="Bookings content">
-          <Routes>
             <Route path="/customers" element={<Customers/>}/>
             <Route path="/invoices" element={<Invoices/>}/>
             <Route path="/past" element={<Past/>}/>
